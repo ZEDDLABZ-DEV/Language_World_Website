@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/sections/Navbar';
 import Footer from './components/sections/Footer';
+import WhatsAppButton from './components/ui/WhatsAppButton';
 import Home from './pages/Home';
 import Curriculum from './pages/Curriculum';
 import Implementation from './pages/Implementation';
@@ -71,6 +72,7 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
